@@ -1,0 +1,869 @@
+html, body{
+	background: #ededed;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/natural_paper.png");
+}
+
+header{
+	width:100%;
+	font-family: Times;
+	background: #ffffff;
+	padding: 32px 0px 33px 0px;
+	border: solid; border-left: hidden; border-right: hidden; border-top: hidden;
+	border-color: #cfcfcf;
+	border-width: thin;
+}
+
+.container{
+	width: 960px;
+}
+
+h1{
+	font-family: Georgia;
+	color: #fff;
+	font-size: 30px;
+	display: inline;
+	padding: 30px 30px 30px 30px;
+	background: #4aaaa5;
+	margin-left: 100px;
+	
+}
+
+nav{
+	width: 35%;
+	float: right;
+	margin-right: 155px;
+	font-size: 19px;
+	font-family: Georgia;
+}
+
+nav ul li{
+		display: inline;
+		padding: 0px 5px;
+}
+
+nav ul li a{
+	color: #777777;
+	text-decoration: none;
+	border: solid;
+	border-color: #f3f3f3;
+	border-top: hidden; border-bottom: hidden; border-left: hidden;
+	border-width: thin;
+	padding-right: 15px;
+}
+
+.noborder{
+	border: hidden;
+}
+
+nav ul li a:hover{
+	color: black;
+	font-size: 22px;
+}
+
+article{
+	background: #ffffff;
+	width: 565px; height: 475px;
+	float: left;
+	margin-left: 95px;
+	margin-top: 42px;
+	border: solid; border-color: #dddddd; border-width: thin;
+
+}
+
+h2{
+	font-family: Georgia;
+	font-size: 30px;
+	color: #57b2b7;
+	border: solid;
+	border-color: #e1e1e1;
+	border-top: hidden; border-left: hidden; border-right: hidden;
+	padding: 30px 0px 20px 5px;
+	width: 91%;
+	margin-left: 20px;
+
+}
+
+aside{
+	background: #ffffff;
+	width: 260px; height: 200px;
+	float: right;
+	margin-top: 42px;
+	
+	border: solid; border-color: #dddddd; border-width: thin;
+}
+
+h3{
+	font-family: Georgia;
+	font-size: 23px;
+	color: #57b2b7;
+	border:solid; border-top: hidden; border-left: hidden; border-right: hidden;
+	border-color: #f3f3f3;
+	width: 67%;
+	padding: 20px 10px 20px 20px;
+	margin-left: 30px;
+}
+
+p{
+	margin-right: 10px; margin-left: 20px;
+	margin-top: 25px;
+	line-height: 180%;
+	font-family: sans-serif;
+	color: #9c9289;
+}
+
+img{
+	width: 170px; height: 150px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+footer{
+	background: #666666;
+	padding: 40px 50px 40px 50px;
+	margin-top: 70px;
+	text-align: center;
+	clear:both;
+	border: solid; border-bottom: hidden; border-right: hidden; border-left: hidden;
+	border-color: #4aaaa5;
+	border-width: thick;
+	color: #777777;
+	font-weight: bold; font-family: Arial;
+}
+
+.push{
+	clear: both;
+}
+.wrapper{
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li:hover{
+	width: 80px; height: 80px;
+}
+
+.pics{
+	width: 60px; height: 60px;
+	margin: 0px; margin-top: 25px; margin-left: 20px;
+	border: solid; border-color: #dddddd; border-width: thin;
+}
+
+.sep-1{
+	position: relative;
+	left: 20%;
+}
+
+.sep-3{
+	position: relative;
+	right: 20%;
+}
+
+/* Contact html css */
+
+.headpg2{
+	font font-family: georgia;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 8px 0px 0px 9px;
+	padding-bottom: 30px;
+	width: 91%;
+}
+
+form{
+	background: #ffffff;
+	height: 490px;
+	padding: 0px 0px 0px 25px;
+	font-color: #7d7e81;
+
+}
+
+form input{
+	width: 92%;
+	height: 20px;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	border: 1px solid #ccc;
+}
+
+form textarea{
+	width: 92%; height: 180px;
+	padding: 7px 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	border: 1px solid #ccc;
+}
+
+form button{
+	width: 110px;
+	height: 41px;
+	background-color: #4aaaa5;
+	border: none;
+	font-size: 19px;
+	color: #ffffff;
+	font-family: arial;
+	margin-top: 20px;
+}
+
+
+.cssft{
+	margin-top: 220px;
+}
+
+.contactp{
+	font-color: #7d7e81;
+	font font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin-left: 0px; margin-top: 14px;
+}
+
+/*Portfolio css*/
+
+.portfoliofooter{
+	margin-top: 200px;
+}
+
+.portfolioart{
+	height: 850px;
+}
+
+.portfolioimg{
+	width: 240px;
+	margin-left: 23px;
+	margin-top: 40px;
+	border: solid; border-color: #dddddd; border-width: thin;
+	
+}
+
+
+h4{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: serif;
+	background: #4aaaa5;
+	
+
+}
+
+.fig1{
+	float: left;
+	position: relative;
+}
+
+	
+.hang{
+	background: #4aaaa5;
+	width: 84%; height: 11%;
+	text-align: center;
+	padding: 10px 2.5px;
+	position: absolute;
+	top: 72%; left: 8.5%;
+
+}
+
+.fig2{
+	float: left;
+	position: relative;
+}
+
+
+.rpg{
+	width: 84%; height: 11%;
+	text-align: center;
+	padding: 10px 2.5px;
+	position: absolute;
+	top: 72%; left: 8.5%;
+}
+
+.fig3{
+	float: left;
+	position: relative;
+}
+
+.trivia{
+	width: 84%; height: 11%;
+	text-align: center;
+	padding: 10px 2.5px;
+	position: absolute;
+	top: 72%; left: 8.5%;
+}
+
+.fig4{
+	float: left;
+	position: relative;
+}
+
+.info{
+	width: 84%; height: 11%;
+	text-align: center;
+	padding: 10px 2.5px;
+	position: absolute;
+	top: 72%; left: 8.5%;
+}
+
+.fig5{
+	float: left;
+	position: relative;
+}
+
+.rock{
+	width: 84%; height: 11%;
+	text-align: center;
+	padding: 10px 2.5px;
+	position: absolute;
+	top: 72%; left: 8.5%;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 980px) {
+/*index 980*/
+
+.container{
+	width: 780px ;
+		}
+
+article{
+	background: #ffffff;
+	width: 380px; height: 930px;
+	float: left;
+	margin-left: 95px;
+	margin-top: 42px;
+	border: solid; border-color: #dddddd; border-width: thin;
+		}
+
+img{
+	width: 340px; height: 250px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+		}
+
+p{
+	margin-right: 10px; margin-left: 20px;
+	margin-top: 25px;
+	line-height: 190%;
+	font-family: sans-serif;
+	color: #9c9289;
+	clear: both;
+	width: 80%;
+
+		}
+
+.pics{
+			padding-bottom: 0px;
+		}
+
+footer{
+	background: #666666;
+	padding: 40px 50px 40px 50px;
+	margin-top: 95px;
+	text-align: center;
+	clear:both;
+	border: solid; border-bottom: hidden; border-right: hidden; border-left: hidden;
+	border-color: #4aaaa5;
+	border-width: thick;
+	color: #777777;
+	font-weight: bold; font-family: Arial;
+}
+
+nav{
+	width: 35%;
+	float: right;
+	margin-right: 100px;
+	font-size: 19px;
+	font-family: Georgia;
+}
+/*contact 980px*/
+
+form{
+	background: #ffffff;
+	height: 490px;
+	padding: 0px 0px 0px 25px;
+	font-color: #7d7e81;
+	width: 87%;
+
+}
+
+.articlecon{
+	background: #ffffff;
+	width: 380px; height: 610px;
+	float: left;
+	margin-left: 95px;
+	margin-top: 42px;
+	border: solid; border-color: #dddddd; border-width: thin;
+}
+
+.headpg2{
+	font font-family: georgia;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 8px 0px 0px 18px;
+	padding-bottom: 30px;
+	width: 87%;
+}
+
+/*Portfolio 980px*/
+
+.portfolioimg{
+	width: 87%;
+	margin-left: 23px;
+	margin-top: 40px;
+	border: solid; border-color: #dddddd; border-width: thin;
+	padding-bottom: 0px;
+}
+
+.portfolioart{
+	height: 1600px;
+}
+
+h4{
+	color: #ffffff;
+	font-size: 25px;
+	font-family: serif;
+	background: #4aaaa5;
+}
+
+.hang{
+	background: #4aaaa5;
+	width: 85%; height: 11%;
+	text-align: center;
+	padding: 15px 3.6px;
+	position: absolute;
+	top: 72%; left: 6.4%;
+}
+
+.rpg{
+	background: #4aaaa5;
+	width: 85%; height: 11%;
+	text-align: center;
+	padding: 15px 3.6px;
+	position: absolute;
+	top: 72%; left: 6.4%;
+}
+
+.trivia{
+	background: #4aaaa5;
+	width: 85%; height: 11%;
+	text-align: center;
+	padding: 15px 3.6px;
+	position: absolute;
+	top: 72%; left: 6.4%;
+}
+
+.fig4{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.info{
+	background: #4aaaa5;
+	width: 85%; height: 11%;
+	text-align: center;
+	padding: 15px 3.6px;
+	position: absolute;
+	top: 72%; left: 6.4%;
+}
+
+.rock{
+	background: #4aaaa5;
+	width: 85%; height: 11%;
+	text-align: center;
+	padding: 15px 3.6px;
+	position: absolute;
+	top: 72%; left: 6.4%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+	/*index 768*/
+
+.container{
+	width: 95%;
+}
+
+article{
+	background: #ffffff;
+	width: 90%; height: 545px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 42px;
+	border: solid; border-color: #dddddd; border-width: thin;
+	padding: 5px 20px;
+}
+
+h2{
+	margin-bottom: 20px;
+
+}
+
+p{
+	margin-right: 20px; margin-left: 0px;
+	line-height: 190%;
+	font-family: sans-serif;
+	color: #9c9289;
+	display: inline;
+}
+
+
+
+img{
+	width: 270px; height: 250px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+aside{
+	background: #ffffff;
+	width: 97%; height: 200px;
+	float: left;
+	margin-top: 42px;	
+	margin-left: 20px;
+	border: solid; border-color: #dddddd; border-width: thin;
+}
+
+h3{
+	width: 88%;
+	margin-left: 13px;
+}
+
+h1{
+	font-family: Georgia;
+	color: #fff;
+	font-size: 30px;
+	display: inline;
+	padding: 30px 30px 30px 30px;
+	background: #4aaaa5;
+	margin-left: 20px;
+	
+}
+
+nav{
+	width: 45%;
+	float: right;
+	margin-right: -45px;
+	font-size: 18px;
+	font-family: Georgia;
+}
+
+nav ul li a{
+	padding-right: 15px;
+}
+
+footer{
+	width: 100%;
+}
+
+header{
+	width: 100%;
+}
+
+
+/*contact 768*/
+
+.articlecon{
+	background: #ffffff;
+	width: 95%; height: 550px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 42px;
+	border: solid; border-color: #dddddd; border-width: thin;
+	padding: 5px 20px;
+}
+
+form{
+	width: 98%; height: 450px;
+}
+
+.headpg2{
+	width: 94%;
+}
+
+.contactside{
+	width: 100%;
+}
+
+.cssft{
+	margin-top: 100px;
+	width: 100%;
+}
+
+.contactsidehead{
+	width: 90%;
+}
+
+/*Portfolio 768*/
+
+.portfolioart{
+	width: 95%; height: 950px;
+}
+
+.portfolioimg{
+	width: 275px;
+	margin-left: 10px; margin-top: 15px;
+}
+
+.porthead{
+	margin-left: 10px;
+	width: 96%;
+}
+
+.hang{
+	background: #4aaaa5;
+	width: 90%; height: 12%;
+	text-align: center;
+	padding: 15px 2.5px;
+	position: absolute;
+	top: 72%; left: 3.3%;
+}
+
+.rpg{
+	background: #4aaaa5;
+	width: 90%; height: 12%;
+	text-align: center;
+	padding: 15px 2.5px;
+	position: absolute;
+	top: 72%; left: 3.3%;
+}
+
+.trivia{
+	background: #4aaaa5;
+	width: 90%; height: 12%;
+	text-align: center;
+	padding: 15px 2.5px;
+	position: absolute;
+	top: 72%; left: 3.3%;
+
+}
+
+.fig4{
+	float: left;
+	position: relative;
+	width: 275px;
+}
+
+
+.info{
+	background: #4aaaa5;
+	width: 99%; height: 12%;
+	text-align: center;
+	padding: 15px 2.5px;
+	position: absolute;
+	top: 72%; left: 3.3%;
+}
+
+.rock{
+	background: #4aaaa5;
+	width: 90%; height: 12%;
+	text-align: center;
+	padding: 15px 2.5px;
+	position: absolute;
+	top: 72%; left: 3.3%;
+}
+
+.portaside{
+	width: 100%;
+}
+
+.portfoliofooter{
+	margin-top: 105px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+	
+.container{
+		width: 640px;
+	}
+
+header{
+	width: 100%;
+	font-family: Times;
+	background: #4aaaa5;
+	padding: 25px 45px 25px 0px;
+	border: solid; border-left: hidden; border-right: hidden; border-top: hidden;
+	border-color: #cfcfcf;
+	border-width: thin;
+	text-align: center;
+}
+
+h1{
+	font-family: Georgia;
+	padding: 0px;
+	font-size: 30px;
+	margin-left: 50px;
+	
+}
+
+nav{
+	width: 100%;
+	margin-top: 25px;
+	background: #ffffff;
+	font-size: 19px;
+	font-family: Georgia;
+	padding-top: 20px; padding-bottom: 20px;
+	padding-left: 100%;
+}
+
+
+nav ul li a{
+	color: #777777;
+	text-decoration: none;
+	border: solid;
+	border-color: #f3f3f3;
+	border-top: hidden; border-bottom: hidden; border-left: hidden;
+	border-width: thin;
+	padding-right: 50px; padding-left: 50px;
+}
+
+article{
+	width: 80%;
+	margin-top: 20px;
+	height: 780px;
+}
+
+img{
+	width: 95%; height: 350px;
+	margin-left: 10px; 
+	padding-bottom: 20px;
+}
+
+p{
+	line-height: 190%;
+	font-family: sans-serif;
+	color: #9c9289;
+	clear: both;
+
+}
+
+aside{
+	width: 86%;
+}
+
+footer{
+	width: 90%;
+}
+
+/*contact 640px*/
+
+.articlecon{
+	width: 80%; height: 585px
+}
+
+
+form{
+	width: 95%; height: 425px;
+	margin-top: 20px;
+	line-height: 38px;
+}
+
+
+form button{
+	width: 110px;
+	height: 41px;
+	margin-top: 5px;
+}
+
+.contactside{
+	width: 87%;
+}
+
+/*Portfolio 640px*/
+
+.portfolioart{
+	width: 80%; height: 2060px;
+}
+
+.portfolioimg{
+	width: 95%;
+}
+
+
+.hang{
+	background: #4aaaa5;
+	width: 94.9%; height: 8%;
+	text-align: center;
+	padding: 11px 0px;
+	position: absolute;
+	top: 83%; left: 2.2%;
+}
+
+.fig2{
+	margin-top: 20px;
+}
+
+.rpg{
+	background: #4aaaa5;
+	width: 94.9%; height: 8%;
+	text-align: center;
+	padding: 11px 0px;
+	position: absolute;
+	top: 83%; left: 2.2%;
+}
+
+.fig3{
+	margin-top: 20px;
+}
+
+.trivia{
+	background: #4aaaa5;
+	width: 94.9%; height: 8%;
+	text-align: center;
+	padding: 11px 0px;
+	position: absolute;
+	top: 83%; left: 2.2%;
+}
+
+.fig4{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.info{
+	background: #4aaaa5;
+	width: 94.9%; height: 8%;
+	text-align: center;
+	padding: 11px 0px;
+	position: absolute;
+	top: 83%; left: 2.2%;
+}
+
+.fig5{
+	margin-top: 20px;
+}
+
+.rock{
+	background: #4aaaa5;
+	width: 94.9%; height: 8%;
+	text-align: center;
+	padding: 11px 0px;
+	position: absolute;
+	top: 83%; left: 2.2%;
+}
+
+.portaside{
+	width: 87%;
+}
+
+}
